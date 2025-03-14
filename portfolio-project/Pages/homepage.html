@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phuoc Nguyen</title>
+        <!--include Bootstrap CSS:-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--include jersey 25 font-->
+        <link href="https://fonts.googleapis.com/css?family=Jersey+25" rel="stylesheet"> 
+        <link href="../CSS/homepage_style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="logo">logo</div>
+        <!--nav bar was built with bootstrap - there are multiple bootstrap classes added to each element-->
+        <div class="nav-bar">
+            <div class="nav-bar-gradient"></div>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: white;">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-section">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects-section">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!------------------------------------------------------------------------------------------------->
+        <header class="page-header">
+            <div class="header-text">
+                <h1 class="header-main">
+                    <span class="header-main-1">Phuoc Nguyen</span>
+                    <!--data-typewriter was added for the javascript file to get the element and process the typewriting animation-->
+                    <span class="header-main-2" data-typewriter="A machine learning enthusiast">A machine learning enthusiast</span>
+                </h1>
+            </div>
+        </header>
+        <!--this about section is also styled with bootstrap's grid layout-->
+        <div class="about row" id="about-section">
+            <div class="col-xl-6">
+                <button class="about-image-btn" id="open-popup">
+                    <img class="about-image" src="../Images/meeee.jpg" alt="about me">
+                </button>
+            </div>
+            <div class="resume-popup" id="popup">
+                <div class="resume-popup-inner">
+                    <img class="resume-img" src="../Images/resume-img.png" alt="resume">
+                    <div class="popup-buttons">
+                        <a href="../downloadable-content/Resume-Phuoc Nguyen.pdf" download><button class="popup-button2">Download</button></a>
+                        <button class="popup-button1" id="close-popup">Close</button>
+                    </div>
+                </div>
+            </div>
+            <div class="about-intro col-xl-5">
+                <p>
+                    Hi! I'm currently a Computer Science undergrad at University of the Pacific, with a minor in Data Science.
+                </p>
+                <p>
+                    I have a strong interest in machine learning, and have been trying to learn as much about it as I can. My dream is to help as many people as I can by bringing the power of AI closer to users
+                </p>
+            </div>
+            <div class="col-xl-1"></div>
+        </div>
+        <!----------------------------------------------------------------->
+        <div class="profile">
+
+        </div>
+        <!--this portion has bootstrap's card element-->
+        <div class="carousel-container">
+            <button class="carousel-arrow left-arrow">&lt;</button>
+            <div class="projects carousel" id="projects-section">
+                <div class="card project-1" style="width: 18rem;">
+                    <img src="../Images/Connect-4-AI-project.png" class="card-img-top Connect-4-AI-project-img" alt="..."> <!--this is where I add project picture-->
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card project-2" style="width: 40rem;">
+                    <img src="../Images/OOP-101-website-img.png" class="card-img-top OOP-website-project-img" alt="..."> <!--this is where I add project picture-->
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card project-3" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="..."> <!--this is where I add project picture-->
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card project-4" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="..."> <!--this is where I add project picture-->
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card project-5" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="..."> <!--this is where I add project picture-->
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-arrow right-arrow">&gt;</button>
+            
+            <div class="indicator-bar">
+                <span class="indicator active"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <!-- Add more indicators as needed -->
+            </div>
+        </div>
+        <!------------------------------------------>
+        
+        <div id="contact">
+            <footer class="page-footer">
+                <!--typewritter effect learned from: https://www.youtube.com/watch?v=yefgBA1CecI-->
+                <span class="call-to-action">Connect with me!</span>
+                <!--form design learned from: https://www.youtube.com/watch?v=YmBuHFVGLxM-->
+                <!--more footer design practices: https://www.youtube.com/watch?v=Dt04HR1lN5Y
+                or https://www.youtube.com/watch?v=6QC86CzO54Y-->
+                <!--a great website with only 4 portions: https://www.designisfunny.co/
+                (even though it's a bit laggy)-->
+                <div id="form-container">
+                    <div id="form-section">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <div class="form-field" id="name-field">
+                                    <input
+                                        type="text"
+                                        placeholder="Your name"
+                                        onfocus="addBoxShadow('name-field')"
+                                        onblur="removeBoxShadow('name-field')"
+                                        id="name"
+                                    />
+                                </div>
+                                <div class="form-field" id="email-field">
+                                    <!-- <label id="email-label" for="email-field">email</label> -->
+                                    <input
+                                        type="email"
+                                        placeholder="Your email"
+                                        onfocus="addBoxShadow('email-field')"
+                                        onblur="removeBoxShadow('email-field')"
+                                        id="email"
+                                        spellcheck="false"
+                                        required
+                                    />
+                                    <!-- <span id="email-error">error msg</span> -->
+                                </div>
+                                <textarea 
+                                    name="message" 
+                                    class="form-field" 
+                                    id="message" 
+                                    cols="30" 
+                                    rows="10"
+                                    onfocus="addBoxShadow('message')"
+                                    onblur="removeBoxShadow('message')"
+                                    placeholder="Messsage"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" id="submit-btn">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="more-contact-wrap">
+                    <div id="more-contact">
+                        <span>More info</span>
+                        <i id="more-contact-icon" class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    <div id="more-contact-info">
+                        <p>phuoc.h.nguyen17@gmail.com</p>
+                        <p>+1 (562) 579 7016</p>
+                        <span id="linkedin"><a href="https://www.linkedin.com/in/phuochnguyen17/" target="_blank">LinkedIn</a></span>
+                        <!--target="_blank" is to specify the hyperlink to open in a new tab-->
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- <script src="../JavaScript/typewriter-animation.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!--script for free icons found on FontAwesome (I used "fa-solid fa-share-nodes")-->
+    <script src="https://kit.fontawesome.com/9a89a5debf.js" crossorigin="anonymous"></script>
+    <script src="../JavaScript/popup.js"></script>
+    <script src="../JavaScript/scroll-handling.js"></script>
+    <script src="../JavaScript/card-carousel.js"></script>
+    <script src="../JavaScript/form-interaction.js"></script>
+    <script src="../JavaScript/form-sending.js"></script>
+
+    <!--gsap videos (to work on animations for the projects slide and maybe more): 
+    learn gsap in 23 minutes https://www.youtube.com/watch?v=m6PDUIF24v4
+    Smooth GSAP Card Animation on ScrollTrigger with Elementor Page Builder https://www.youtube.com/watch?v=GHWygHdZr8A
+    How To Create Image Gallery In JavaScript | Horizontal Scrolling Using JavaScript https://www.youtube.com/watch?v=gzXyRa7jwk4
+    Horizontal Scroll Slider | Horizontal Image Scroll HTML, CSS & JavaScript (GSAP) https://www.youtube.com/watch?v=H8lSaPLsOzc
+    Create a Sick Horizontal Scroll Animation | GreenSock / JS https://www.youtube.com/watch?v=VvSVw1yLAPM-->
+</html>
